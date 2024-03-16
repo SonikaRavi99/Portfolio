@@ -1,0 +1,54 @@
+.About {
+  font-family: "Lato", sans-serif;
+  background-color: #F5F5F5;
+  color: rgb(75, 68, 68);
+}
+
+.AboutMe {
+  padding-top: 50px;
+}
+.Para {
+  font-size: 18px;
+  line-height: 2;
+}
+.MainContent {
+  padding-top: 40px;
+  padding-bottom: 160px;
+}
+.container {
+  /* position: relative; */
+}
+.ImgBorder {
+  border: 15px solid rgb(44, 42, 42);
+  height: 280px;
+  width: 240px;
+  position: absolute;
+  top: 770px;
+  left: 100px;
+}
+.MyImageContainer {
+  position: absolute;
+  left:160px ;
+  padding-top: 60px;
+  z-index: 1000;
+}
+@media screen and (max-width :600px)
+{
+  .AboutMe{
+      padding-top: 500px;
+  }
+  .MainContent {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .About{
+    width: 115%;
+  }
+  .ImgBorder{
+    left: 90px;
+    top:740px ;
+  }
+  .MyImageContainer{
+    left:140px;
+  }
+}

@@ -1,0 +1,64 @@
+.Body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../assert/image1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #828282;
+  font-family: 'Lato', sans-serif;
+  height: 590px;
+}
+
+.Text {
+  padding: 150px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 35px;
+  font-size: 22px;
+}
+.Name{
+  font-size: 20px;
+}
+
+.AppBarButton {
+  display: flex;
+  flex-direction: column; /* Display menu items in a column */
+}
+
+@media screen and (max-width :600px)
+{
+  .Text{
+    padding: 50px;
+    padding-top: 200px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .description{
+    font-size: 15px;
+  }
+  .Body{
+    width: 115%;
+    background-size: cover;
+  }
+  .Name{
+    font-size: 16px;
+  }
+  
+  .AppBarButton {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: black; 
+    width: 100%;
+   
+  }
+  
+  .AppBarButton button {
+    margin-bottom: 8px; 
+  }
+}

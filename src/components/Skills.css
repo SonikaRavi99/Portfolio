@@ -1,0 +1,28 @@
+.Skills{
+    padding: 50px;
+    padding-top: 70px;
+    background-color: #5d5f5f;
+}
+.Slides{
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+    background-color: #E3E1D9;
+    height: 70%;
+}
+.Skills h1{
+    text-align: center;
+    color: #E3E1D9;
+}
+.Skills button{
+    color: aliceblue;
+}
+.mantine-Carousel-indicators{
+    color: #E3E1D9;
+}
+@media screen and (max-width :600px)
+{
+    .Skills{
+        width: 90%;
+    }
+}
